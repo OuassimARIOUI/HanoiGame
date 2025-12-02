@@ -43,4 +43,4 @@ ok maintenant ce que on vas faire c'est une amelioration de style visueille , av
 ```text
 ok maintenant ce que on vas faire c'est de rajouter un button Déme Auto , quand on clique dessus le jeu se resoudre automatiquement devant nous , c'est comme si une demonstration visuelle de la solution grace a l'algorithme de solution recursif classique des Tours de Hanoi.
 ```
-![](/captures/etape05.mp4)
+![](/captures/etape05-.gif)
