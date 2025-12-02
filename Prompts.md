@@ -44,3 +44,23 @@ ok maintenant ce que on vas faire c'est une amelioration de style visueille , av
 ok maintenant ce que on vas faire c'est de rajouter un button Déme Auto , quand on clique dessus le jeu se resoudre automatiquement devant nous , c'est comme si une demonstration visuelle de la solution grace a l'algorithme de solution recursif classique des Tours de Hanoi.
 ```
 ![](/captures/etape05-.gif)
+
+
+## Etape 06 :
+### Prompt Uitlisée :
+```text
+ok maintenant on vas rajouter des functionnalitée 
+un compeut incrément de coup qui calcule les coup effectuée 
+un detecteur de victoire avec un message de félicitation 
+un systéme de score basée sur le nombre minimal de coup avec la notion mathématique 
+
+(2^n – 1)
+
+aussi un boutton re reset de jeux qui reset le score et le jeux 
+une animation avancée , glissement fluide des anneaux , 
+aussi un button qui permet de changer le théme sombre et claire
+
+```
+![](/captures/etape06-1.png)
+![](/captures/etape06-2.png)
+![](/captures/etape06-3.png)

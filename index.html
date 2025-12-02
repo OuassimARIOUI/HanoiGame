@@ -15,6 +15,16 @@
 
         <button id="startBtn">Démarrer</button>
         <button id="autoBtn">Démarrer Auto</button>
+        <button id="resetBtn">Reset</button>
+        <button id="themeBtn">Thème</button>
+
+        <div id="scoreBox">
+            Coups : <span id="moveCount">0</span> /
+            Optimal : <span id="optimalMoves">0</span>
+        </div>  
+
+        <div id="victoryMessage"></div>
+
     </div>
 
     <div id="gameArea">
@@ -30,6 +40,12 @@
             <div class="stack"></div>
         </div>
 
+    </div>
+    <!-- MODAL VICTOIRE -->
+    <div id="victoryModal" class="modal hidden">
+        <div class="modal-content">
+            <h2 id="victoryText"></h2>
+        </div>
     </div>
 
     <script src="scripts.js"></script>
