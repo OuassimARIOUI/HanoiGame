@@ -30,3 +30,11 @@ ok maintenant ce que on vas faire c'est de rajouter une fonctionnalité que lors
 Allrights , maintenant on vas bosser sur les Deplacement des anneaux , ce que on vas faire c'est rajouter une autre fonctionnalitée , c'est que quand le user clique sur un anneaux il devien selectionnée , puis il clique sur une autre tour pour le deplacer dedant sachant que on ne peut pas bouger un anneaux que sur un anneau plus grand que lui , c'est a dire on peut pas deposer 2 sur 1 , mais on peut stacker 1 sur 2
 ```
 ![](/captures/etape03.png)
+
+## Etape 04 :
+### Prompt Uitlisée :
+```text
+ok maintenant ce que on vas faire c'est une amelioration de style visueille , avec des animation des couleurs , animation de mouvement des anneaux et une meuilleure mise en page qui donne une belle expérience ui , sans rajouter des fonctionnalitée 
+```
+![](/captures/etape04.png)
+

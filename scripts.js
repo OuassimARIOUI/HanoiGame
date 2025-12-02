@@ -103,4 +103,17 @@ function handleTowerClick(tower) {
 
     selectedRing.classList.remove("selected");
     selectedRing = null;
+
+     // ⚡ Ajout animation
+    selectedRing.classList.add("move");
+
+    setTimeout(() => {
+        selectedRing.parentElement.removeChild(selectedRing);
+        targetStack.appendChild(selectedRing);
+
+        selectedRing.classList.remove("selected");
+        selectedRing.classList.remove("move");
+        selectedRing = null;
+
+    }, 150); // léger délai pour la fluidité
 }
