@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tours de Hanoï – Mini-Jeu Complet</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="app">
+
+        <header>
+            <h1>🎮 Tours de Hanoï</h1>
+        </header>
+
+        <div class="controls">
+            <label>Nombre d'anneaux :</label>
+            <input id="diskInput" type="number" min="1" max="10" value="3">
+
+            <button id="startBtn">Démarrer</button>
+            <button id="autoBtn">Démarrer Auto</button>
+            <button id="resetBtn">Reset</button>
+            <button id="themeBtn">Thème</button>
+        </div>
+
+        <div class="info">
+            <p>Coups : <span id="movesCount">0</span></p>
+            <p>Minimum optimal : <span id="optimalCount">0</span></p>
+        </div>
+
+        <div class="game">
+            <div class="tower" data-id="0"></div>
+            <div class="tower" data-id="1"></div>
+            <div class="tower" data-id="2"></div>
+        </div>
+    </div>
+
+    <!-- Modal victoire -->
+    <div id="victoryModal" class="modal hidden">
+        <div class="modal-content">
+            <h2>🎉 Victoire !</h2>
+            <p>Vous avez réussi toutes les étapes !</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours de Hanoï - Ultimate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <header class="glass-panel">
+            <h1>Tours de Hanoï</h1>
+            
+            <div class="controls-row">
+                <div class="input-group">
+                    <label for="diskCount">Anneaux (3-8) :</label>
+                    <input type="number" id="diskCount" min="3" max="8" value="4">
+                </div>
+                
+                <div class="button-group">
+                    <button id="btnStart" class="btn primary">Démarrer</button>
+                    <button id="btnReset" class="btn secondary">Réinitialiser</button>
+                    <button id="btnAuto" class="btn accent">Résolution Auto</button>
+                    <button id="btnTheme" class="btn icon" aria-label="Changer de thème">🌗</button>
+                </div>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat-box">
+                    <span>Coups joués</span>
+                    <strong id="moveCount">0</strong>
+                </div>
+                <div class="stat-box">
+                    <span>Minimum optimal</span>
+                    <strong id="minMoves">0</strong>
+                </div>
+            </div>
+        </header>
+
+        <main class="game-board glass-panel">
+            <div class="tower-container">
+                <div class="tower" id="tower-1" data-id="1">
+                    <div class="pole"></div>
+                    <div class="base"></div>
+                    <div class="disks-container"></div>
+                </div>
+            </div>
+            <div class="tower-container">
+                <div class="tower" id="tower-2" data-id="2">
+                    <div class="pole"></div>
+                    <div class="base"></div>
+                    <div class="disks-container"></div>
+                </div>
+            </div>
+            <div class="tower-container">
+                <div class="tower" id="tower-3" data-id="3">
+                    <div class="pole"></div>
+                    <div class="base"></div>
+                    <div class="disks-container"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="victoryModal" class="modal hidden">
+        <div class="modal-content glass-panel">
+            <h2>🎉 Victoire ! 🎉</h2>
+            <p>Tu as terminé le puzzle.</p>
+            <p class="modal-stats">Coups : <span id="modalMoves">0</span></p>
+            <div class="modal-timer-bar"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
