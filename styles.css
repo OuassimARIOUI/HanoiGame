@@ -120,3 +120,12 @@ h1 {
 .ring.move {
     transition: transform 0.4s ease;
 }
+
+.controls button#autoBtn {
+    background: #9C27B0;
+    box-shadow: 0 4px 10px rgba(156, 39, 176, 0.4);
+}
+
+.controls button#autoBtn:hover {
+    background: #7B1FA2;
+}
